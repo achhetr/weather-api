@@ -1,6 +1,6 @@
-# Portfolio
+# Weather REST API
 
-This is a Node project to create an api by entering location to get the temperature
+This is a node project to create an api by entering location to get the temperature
 
 ## Installation
 
