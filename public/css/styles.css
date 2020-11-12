@@ -14,6 +14,36 @@ body {
 	flex-grow: 1;
 }
 
+.help-content p {
+	color: #333333;
+}
+
+.help-content p a {
+	color: rgb(72, 102, 37);
+}
+
+.help-content p a:focus,
+.help-content p a:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+.about-content p {
+	color: #333333;
+	font-weight: 300;
+	word-wrap: none;
+}
+
+.about-content img {
+	border-radius: 0.4rem;
+	overflow: hidden;
+	transition: transform 0.4s ease;
+}
+
+.about-content img:hover {
+	transform: scale(1.1);
+}
+
 footer {
 	color: #888888;
 	border-top: 1px solid #eeeeee;
