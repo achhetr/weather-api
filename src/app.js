@@ -9,6 +9,7 @@ const forecast = require('../utils/forecast');
 require('dotenv').config();
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 // path defined
 const publicDirectory = path.join(__dirname, '../public');
@@ -105,6 +106,6 @@ app.get('*', (req, res) => {
 	});
 });
 
-app.listen(3000, () => {
-	console.log('Server listening to port 3000');
+app.listen(port, () => {
+	console.log('Server listening to port ' + port);
 });
