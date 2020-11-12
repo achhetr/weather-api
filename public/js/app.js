@@ -18,8 +18,8 @@ weatherForm.addEventListener('submit', (e) => {
 				if (data.error) {
 					messageOne.textContent = data.error;
 				} else {
-					messageOne.textContent = 'Location ' + location;
-					messageTwo.textContent = 'Temperature ' + data.temperature;
+					messageOne.textContent = 'Location - ' + data.location;
+					messageTwo.textContent = `Current temperature is ${data.temperature}deg. It will feels like ${data.feelslike}deg`;
 				}
 			});
 		})
